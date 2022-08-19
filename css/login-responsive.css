@@ -1,0 +1,167 @@
+@media only screen and (max-width: 1326px){
+    .row-2  .hrt p {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
+        color: #B3B3B3;
+        width: 250px;
+        margin-top: -45px;
+        margin-left: 50px
+    
+    }
+}
+
+@media only screen and (max-width: 1034px) {
+    body{
+        background-image: url(./bg.jpg);
+        color: #fff;
+    }
+    .container {
+        height: 400px;
+    }
+
+    .right-parent {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 450px) {
+    .parent {
+        height: 400px;
+    }
+
+    .child {
+        height: 100%;
+        width: 300px;
+        margin-top: 20px;
+
+
+    }
+
+    
+    h1 {
+        margin-left: 55px;
+        font-size: 20px;
+    }
+    
+    p {
+        margin-left: 57px;
+        width: 200px;
+
+    }
+
+    input {
+        width: 180px;
+        height: 10px;
+    }
+
+    button {
+        width: 150px;
+
+    }
+
+    h6 {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 7px;
+    }
+
+    h6::before {
+        content: "";
+        display: block;
+        width: 60px;
+        height: .5px;
+        background: #BFBFBF;
+        position: absolute;
+        text-align: left;
+        margin-top: 4px;
+        margin-left: 60px;
+    }
+
+    h6:after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: .5px;
+        background: #BFBFBF;
+        position: absolute;
+        margin-left: 180px;
+        text-align: right;
+        margin-top: -5px;
+
+
+
+    }
+
+}
+
+
+@media only screen and (max-width: 320px) {
+    .parent {
+        height: 400px;
+    }
+
+    .child {
+        height: 100%;
+        width: 300px;
+        margin-top: 20px;
+
+
+    }
+
+    
+    h1 {
+        margin-left: 55px;
+        font-size: 20px;
+    }
+    
+    p {
+        margin-left: 57px;
+        width: 200px;
+
+    }
+
+    input {
+        width: 180px;
+        height: 10px;
+    }
+
+    button {
+        width: 150px;
+
+    }
+
+    h6 {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 7px;
+    }
+
+    h6::before {
+        content: "";
+        display: block;
+        width: 60px;
+        height: .5px;
+        background: #BFBFBF;
+        position: absolute;
+        text-align: left;
+        margin-top: 4px;
+        margin-left: 60px;
+    }
+
+    h6:after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: .5px;
+        background: #BFBFBF;
+        position: absolute;
+        margin-left: 180px;
+        text-align: right;
+        margin-top: -5px;
+
+
+
+    }
+
+}

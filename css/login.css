@@ -1,0 +1,267 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.parent {
+    width: 500px;
+    height: 500px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child {
+    height: 500px;
+    width: 400px;
+
+}
+
+h5 {
+    margin-left: 80px;
+    font-size: 10px;
+
+
+}
+h5 a{
+    text-decoration: none;
+}
+
+h1 {
+    margin-left: 45px;
+}
+
+p {
+    margin-left: 45px;
+    font-size: 10px;
+    width: 300px;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    justify-content: center;
+    padding-top: 10px;
+    border: .001px solid blue;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+    border: .001px solid blue;
+}
+
+h6 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h6::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: .5px;
+    background: #BFBFBF;
+    position: absolute;
+    text-align: left;
+    margin-top: 7px;
+    margin-left: 50px;
+}
+
+h6:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: .5px;
+    background: #BFBFBF;
+    position: absolute;
+    margin-left: 250px;
+    text-align: right;
+    margin-top: -5px;
+
+
+
+}
+
+
+
+#icons {
+    top: 3rem;
+    display: flex;
+    text-align: center;
+    padding: 20px 30px 30px 10px;
+    margin:0 auto;
+    justify-content: center;
+    max-width: 100px;
+    color: blue;
+
+}
+
+#icons #goggle {
+    text-align: center;
+    text-decoration: none;
+    border: none;
+
+
+
+}
+
+#icons .fa-facebook {
+    margin-right: 25px;
+    margin-left: 25px;
+    border-color: #fff;
+    text-align: center;
+}
+#icons #apple {
+    text-align: center;
+    text-decoration: none;
+    border: none;
+
+}
+
+/* ----------------------right---------------------- */
+
+
+.right-parent {
+    width: 500px;
+    height: 600px;
+    background-color: blue;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.right-child {
+    height: 500px;
+    width: 200px;
+    background-color: blue;
+    border: 2px solid blue;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+#aside .wrapper {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#aside .wrapper .center-line {
+    top: 20%;
+    position: absolute;
+    height: 60%;
+    width: 0.5px;
+    background: #C0C0C0;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.wrapper .row-1 {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    
+    border-radius: 5px;
+
+}
+
+.title {
+    font-size: 35px;
+    color:#fff;
+    font-weight: bold;
+    text-align: left;
+    width: 200px;
+
+}
+
+.wrapper .row-2 {
+    text-align: center;
+    display: flex;
+    color: #fff;
+
+}
+
+.row-2 .paragraph{
+    font-family: sans-serif;
+    font-size: 12px;
+
+}
+
+.row-2  .paragraph p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #B3B3B3;
+    width: 250px;
+    margin-top: 1px;
+    margin-left: 51px
+
+}
+
+.row-2  .paragraph::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 0.5px;
+    background: #B3B3B3;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+#end {
+    display: flex;
+    margin-left: 20px;
+}
+
+#end img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-left: 40%;
+}
+
+.bottom {
+    display: inline;
+}
+
+.bottom a {
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 15px;
+    font-size: 10px;
+
+}
+
+#bottom-end {
+    width: 70px;
+    margin-left: -20px;
+
+}
+
+#bottom-end span {
+    font-size: 10px;
+}
+
+#bottom-end p {
+    color: #B3B3B3;
+    font-size: 10px;
+    margin-left: -90px;
+}
+
